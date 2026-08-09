@@ -30,4 +30,4 @@ Must have
 
 - TASK-1.1 - Modélisation du flux de recherche :
     Ce diagramme montre les interactions entre les différentss composants lors d'une recherche.
-    Le diagramme de séquence est disponible dans : `docs/diagrams/US01-flux-de-recherche.png`
+    Le diagramme de séquence est disponible dans : `architecture/US01-flux-de-recherche.png`
