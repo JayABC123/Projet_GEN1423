@@ -1,8 +1,7 @@
 # US_01 - Recherche d'événements
 
 ## User Story
-En tant que client,
-je veux rechercher un événement par nom, date ou catégorie,
+En tant que client, je veux rechercher un événement par nom, date ou catégorie,
 afin de trouver rapidement les événements qui m'intéressent.
 
 ## Critères d'acceptation
@@ -26,3 +25,9 @@ Must have
 
 ## Story Points
 3
+
+## Tâches
+
+- TASK-1.1 - Modélisation du flux de recherche :
+    Ce diagramme montre les interactions entre les différentss composants lors d'une recherche.
+    Le diagramme de séquence est disponible dans : `architecture/US01-flux-de-recherche.png`
