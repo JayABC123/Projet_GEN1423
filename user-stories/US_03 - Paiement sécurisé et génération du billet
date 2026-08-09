@@ -1,0 +1,36 @@
+# US_03 - Paiement sécurisé et génération du billet
+
+## User Story
+En tant que client, je veux payer mon billet de manière sécurisée et recevoir mon billet électronique avec un QR Code après mon paiement, afin de pouvoir accéder à l'événement.
+
+## Critères d'acceptation
+- Connexion sécurisée :
+    Étant donné que je procède au paiement
+    Quand je transmets mes informations de paiement
+    Alors la transaction s'effectue via une connexion sécurisée
+
+- Délai de finalisation :
+    Étant donné que j'ai initié le paiement
+    Quand je confirme la transaction
+    Alors le paiement est finalisé en moins de 5 minutes
+
+- Protection contre la double facturation :
+    Étant donné qu'un siège est verrouillé pour ma transaction
+    Quand le paiement est en cours
+    Alors le système empêche toute double réservation ou double facturation du même siège
+
+- Génération automatique du billet :
+    Étant donné que mon paiement est confirmé
+    Quand la transaction est finalisée
+    Alors un billet électronique avec un QR Code est généré automatiquement
+
+- Envoi de confirmation par courriel :
+    Étant donné que mon billet a été généré
+    Quand la transaction est complétée
+    Alors un courriel de confirmation contenant le billet est envoyé à l'utilisateur
+
+## Priorité
+Must have
+
+## Story Points
+5
