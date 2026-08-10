@@ -36,10 +36,10 @@ Must have
     Lien : `https://wasp-dark-76166397.figma.site/`
     Capture du site est disponible dans : `architecture/TicketPulse-UI.png`
     
--Task 1.3 - Estimation de la charge de recherche :
+- TASK 1.3 - Estimation de la charge de recherche :
     Cette tâche consiste à estimer la charge de la fonctionnalité de recherche à partir du profil de charge global du système. Cette estimation permet d'identifier les besoins architecturaux, notamment l'utilisation potentielle d'un cache ou d'un moteur de recherche dédié.
     Le fichier contenant l'estimation détaillé est disponible dans : `architecture/US01-Dimensionnement.md`
 
--Task 1.4 - Scénario de test :
+- TASK 1.4 - Scénario de test :
     Cette tâche consiste à définir des scénarios de test permettant de valider les principaux comportements de la recherche d'événements de TicketPulse, notamment la recherche par mot-clé, les filtres, les recherches sans résultat et les champs vides. Les tests couvrent également les exigences non fonctionnelles liées au temps de réponse inférieur à 2 secondes ainsi que la capacité du système à supporter la charge estimée de 15 000 requêtes/s définie dans la TASK-1.3.
     Le fichier contenant les scénarios de test est disponible dans : `architecture/US01-Scéanarios-testing.md`
