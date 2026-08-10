@@ -34,5 +34,8 @@ Must have
 - TASK-1.2 - Conception de l'écran de recherche :
     La maquette Figma montre la page avec laquelle le client interagira sur son ordinateur. Cette page de recherche comprend la page « Explorer » et une page pour les événements préférés, « Favoris ». Sur la page principale, on retrouve les événements en vedette, la barre de recherche avec une section pour les filtres et des icônes de catégorie. La bannière de chaque événement montre son titre, le type d'événement, la ville, le stade ou le lieu de déroulement, la date, le prix de base d'un billet, ainsi que les avis des utilisateurs.
     Lien : `https://wasp-dark-76166397.figma.site/`
-    Capture du site ce trouve dans : `architecture/TicketPulse-UI.png`
+    Capture du site est disponible dans : `architecture/TicketPulse-UI.png`
     
+-Task-1.3 - Estimation de la charge de recherche:
+    Cette tâche consiste à estimer la charge de la fonctionnalité de recherche à partir du profil de charge global du système. Cette estimation permet d'identifier les besoins architecturaux, notamment l'utilisation potentielle d'un cache ou d'un moteur de recherche dédié.
+    Le fichier contenant l'estimation détaillé est disponible dans : `architecture/US01-Dimensionnement.md`
