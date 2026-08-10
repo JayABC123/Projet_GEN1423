@@ -43,7 +43,7 @@ En tant que client, je souhaite payer mon billet de manière sécurisée et rece
 Must have
 
 ## Story Points
-5
+7
 
 ## Tâches
 
