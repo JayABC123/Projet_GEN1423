@@ -1,36 +1,46 @@
 # US_03 - Paiement sécurisé et génération du billet
 
 ## User Story
-En tant que client, je veux payer mon billet de manière sécurisée et recevoir mon billet électronique avec un QR Code après mon paiement, afin de pouvoir accéder à l'événement.
+En tant que client, je souhaite payer mon billet de manière sécurisée et recevoir mon billet électronique avec un code QR après mon paiement, afin de pouvoir accéder à l'événement.
 
 ## Critères d'acceptation
 - Connexion sécurisée :
-    Étant donné que je procède au paiement
-    Quand je transmets mes informations de paiement
-    Alors la transaction s'effectue via une connexion sécurisée
+    Étant donné que je procède au paiement,
+    Quand je transmets mes informations de paiement,
+    Alors la transaction s'effectue via une connexion sécurisée (HTTPS/TLS).
 
 - Délai de finalisation :
-    Étant donné que j'ai initié le paiement
-    Quand je confirme la transaction
-    Alors le paiement est finalisé en moins de 5 minutes
+    Étant donné que j'ai initié le paiement,
+    Quand je confirme la transaction,
+    Alors le paiement est finalisé en moins de 5 minutes.
 
 - Protection contre la double facturation :
-    Étant donné qu'un siège est verrouillé pour ma transaction
-    Quand le paiement est en cours
-    Alors le système empêche toute double réservation ou double facturation du même siège
+    Étant donné qu'un siège est verrouillé pour ma transaction,
+    Quand le paiement est en cours,
+    Alors le système empêche toute double réservation ou double facturation du même siège.
 
 - Génération automatique du billet :
-    Étant donné que mon paiement est confirmé
-    Quand la transaction est finalisée
-    Alors un billet électronique avec un QR Code est généré automatiquement
+    Étant donné que mon paiement est confirmé,
+    Quand la transaction est finalisée,
+    Alors un billet électronique avec un code QR est généré automatiquement.
+
+- Paiement refusé :
+    Étant donné que je soumets un paiement,
+    Quand la transaction est refusée par le fournisseur de paiement,
+    Alors un message d'erreur clair s'affiche et le siège reste réservé jusqu'à l'expiration du délai.
 
 - Envoi de confirmation par courriel :
-    Étant donné que mon billet a été généré
-    Quand la transaction est complétée
-    Alors un courriel de confirmation contenant le billet est envoyé à l'utilisateur
+    Étant donné que mon billet a été généré,
+    Quand la transaction est complétée,
+    Alors un courriel de confirmation contenant le billet électronique est envoyé à l'utilisateur.
 
 ## Priorité
 Must have
 
 ## Story Points
 5
+
+## Tâches
+
+- TASK 3.1 - Définir les critères d'acceptation du paiement :
+    Les critères d'acceptation du paiement sont définis ci-dessus. Cette tâche consiste à les valider et à s'assurer qu'ils couvrent les différents scénarios du processus de paiement, notamment la réussite, le refus, le délai de finalisation et la protection contre la double facturation.
