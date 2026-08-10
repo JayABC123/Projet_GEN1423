@@ -44,3 +44,7 @@ Must have
 
 - TASK 3.1 - Définir les critères d'acceptation du paiement :
     Les critères d'acceptation du paiement sont définis ci-dessus. Cette tâche consiste à les valider et à s'assurer qu'ils couvrent les différents scénarios du processus de paiement, notamment la réussite, le refus, le délai de finalisation et la protection contre la double facturation.
+
+- TASK 3.2 - Modélisation du flux de paiement :
+    Ce diagramme montre les interactions entre les différents composants lors d'un paiement.
+    Le diagramme de séquence est disponible dans : `architecture/US04-flux-de-paiement.png`
