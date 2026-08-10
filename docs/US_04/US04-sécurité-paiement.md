@@ -1,4 +1,4 @@
-## TASK-3.2 - Analse de la sécurité du paiement
+## TASK-3.3 - Analse de la sécurité du paiement
 
 #### Menaces identifiées
 - Interception des données de paiement en transit (attaque man-in-the-middle)

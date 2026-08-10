@@ -53,3 +53,11 @@ Must have
     La tâche consiste à identifier les principales menaces liées au paiement, notamment l'interception des données, le rejeu de transactions, la fraude et la manipulation des montants. Des mécanismes de mitigation sont définis, tels que TLS 1.3, l'utilisation d'une passerelle de paiement PCI-DSS, l'idempotence des transactions, la validation côté serveur et la journalisation des tentatives de paiement.
     Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_04/US04-sécurité-paiement.md`
 
+- TASK 3.3 - Analyse de la sécurité du paiement : 
+    La tâche consiste à identifier les principales menaces liées au paiement, notamment l'interception des données, le rejeu de transactions, la fraude et la manipulation des montants. Des mécanismes de mitigation sont définis, tels que TLS 1.3, l'utilisation d'une passerelle de paiement PCI-DSS, l'idempotence des transactions, la validation côté serveur et la journalisation des tentatives de paiement.
+    Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_04/US04-sécurité-paiement.md`
+
+- TASK 3.4 - Processus de génération du billet :
+    La tâche consiste à modélser le processus complet de génération du billet électronique (QR Code) déclenché après la confirmation du paiement, et documenter le choix technique retenu (génération synchrone vs asynchrone).
+    Le fichier contenant l'analyse de la décision architecturale est disponible dans : `docs/US_04/US04-génération-billet.md`
+    Lien vers le diagramme de séquence : `architecture/US_04/US04-flux-génération-billet.png`
