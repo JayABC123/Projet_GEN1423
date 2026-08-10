@@ -52,20 +52,28 @@ Must have
 
 - TASK 3.2 - Modélisation du flux de paiement :
     Ce diagramme montre les interactions entre les différents composants lors d'un paiement.
-    Le diagramme de séquence est disponible dans : `architecture/US04-flux-de-paiement.png`
+    Le diagramme de séquence est disponible dans : `architecture/US03-flux-de-paiement.png`
 
 - TASK 3.2 - Analyse de la sécurité du paiement : 
     La tâche consiste à identifier les principales menaces liées au paiement, notamment l'interception des données, le rejeu de transactions, la fraude et la manipulation des montants. Des mécanismes de mitigation sont définis, tels que TLS 1.3, l'utilisation d'une passerelle de paiement PCI-DSS, l'idempotence des transactions, la validation côté serveur et la journalisation des tentatives de paiement.
-    Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_04/US04-sécurité-paiement.md`
+    Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_03/US03-sécurité-paiement.md`
 
 - TASK 3.3 - Analyse de la sécurité du paiement : 
     La tâche consiste à identifier les principales menaces liées au paiement, notamment l'interception des données, le rejeu de transactions, la fraude et la manipulation des montants. Des mécanismes de mitigation sont définis, tels que TLS 1.3, l'utilisation d'une passerelle de paiement PCI-DSS, l'idempotence des transactions, la validation côté serveur et la journalisation des tentatives de paiement.
-    Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_04/US04-sécurité-paiement.md`
+    Le fichier contenant l'analyse détaillé est disponible dans : `docs/US_03/US03-sécurité-paiement.md`
 
 - TASK 3.4 - Processus de génération du billet :
     La tâche consiste à modélser le processus complet de génération du billet électronique (QR Code) déclenché après la confirmation du paiement, et documenter le choix technique retenu (génération synchrone vs asynchrone).
-    Le fichier contenant l'analyse de la décision architecturale est disponible dans : `docs/US_04/US04-génération-billet.md`
-    Lien vers le diagramme de séquence : `architecture/US_04/US04-flux-génération-billet.png`
+    Le fichier contenant l'analyse de la décision architecturale est disponible dans : `docs/US_03/US03-génération-billet.md`
+    Lien vers le diagramme de séquence : `architecture/US_03/US03-flux-génération-billet.png`
 
 - TASK 3.5 - Définir la confirmation par courriel :
     Les critères d'acceptation de la confirmation par courriel sont définis ci-dessus. Cette tâche consiste à l'envoi automatique du courriel de confirmation avec le billet électronique et le code QR, ainsi que le mécanisme de réessai en cas d'indisponibilité du service de messagerie et l'accès permanent au billet depuis le profil client si l'envoi échoue.
+
+- TASK 3.6 - Définir les scénarios d'échec :
+    Cette tâche consiste à identifier les principaux scénarios d'échec du paiement et de la génération du billet, ainsi que le comportement attendu du système pour chacun.
+    Le fichier contenant les scénarios de d'échec est disponible dans : `docs/US_03/US03-Scénarios-échec.md`
+
+- TASK 3.7 - Définir les scénarios de test : 
+    Cette tâche consiste à définir les tests permettant de valider le paiement, la génération du billet et du QR Code, ainsi que les différents cas d'échec     identifiés.
+    Le fichier contenant les scénarios de test est disponible dans : `docs/US_03/US03-Scénarios-Test.md`
