@@ -1,4 +1,4 @@
-# US_04 - Consultation du plan de salle en temps réel
+# US_04 - Réservation temporaire du siège
 
 ## User Story
 En tant que client, je veux réserver temporairement un siège pendant que je complète mon paiement, pour m’assurer que personne d'autre ne puisse l'acheter durant ma transaction.
@@ -35,3 +35,13 @@ Must have
 
 - TASK 4.1 - Définir les critères d'acceptation de la réservation :
     Les critères d'acceptation de la réservation sont définis ci-dessus. Cette tâche consiste à les valider et à s'assurer qu'ils couvrent les différents scénarios de verrouillage temporaire, de visibilité pour les autres utilisateurs, d'expiration/annulation et de protection contre la double réservation.
+
+- TASK 4.2 - Conception du diagramme de séquence de réservation :
+
+- TASK 4.3 - Analyse du mécanisme de réservation temporaire :
+    Cette tâche consiste à définir le mécanisme de verrouillage temporaire permettant de réserver exclusivement un siège pendant 5 minutes. La solution retenue repose sur un verrou distribué avec expiration automatique (TTL) via Redis, afin de gérer efficacement les accès simultanés et d'éviter les doubles réservations lors des périodes de forte charge.
+    Le fichier d'analyse du mécanisme de réservation temporaire est disponible dans : `docs/US_04/US04-Mécanisme-Réservation.md`
+
+- TASK 4.4 - Analyser la concurrence et la double réservation
+
+- TASK 4.5 - Définir 
