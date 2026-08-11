@@ -1,4 +1,5 @@
 ### TASK-3.4 — Concevoir le processus de génération du billet
+
 ## Décision architecturale : génération synchrone vs asynchrone
  
 | Critère | Génération synchrone | Génération asynchrone (retenue) |
