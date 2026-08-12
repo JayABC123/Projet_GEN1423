@@ -44,7 +44,7 @@ Les principales hypothèses retenues pour la conception de TicketPulse sont :
 La répartition des principales tâches est documentée dans Jira et les 
 contributions aux livrables sont également suivies dans GitHub.
 
-Le bilan complet de contribution des membres est disponible dans : `Livrables/Bilan de contribution.md`
+Le bilan complet de contribution des membres est disponible dans : `Livrables/Volet 1/Bilan de contribution.md`
 
 ### Jean-Jacques Akamah
 - US-01 : Recherche d'événement dans l'application.
