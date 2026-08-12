@@ -17,6 +17,7 @@ TicketPulse est une application de billetterie permettant aux utilisateurs de re
 
 Le dépôt est organisé de la manière suivante :
 
+- `Librables/` : document des volet 1,2 et 3 contenant les livrables et le bilan de contribution des membres
 - `architecture/` : diagrammes et documents liés à l’architecture du système.
 - `docs/` : documentation générale et livrables du projet.
 - `figma/` : liens et références vers les maquettes Figma.
@@ -42,6 +43,8 @@ Les principales hypothèses retenues pour la conception de TicketPulse sont :
  
 La répartition des principales tâches est documentée dans Jira et les 
 contributions aux livrables sont également suivies dans GitHub.
+
+Le bilan complet de contribution des membres est disponible dans : `Livrables/Bilan de contribution.md`
 
 ### Jean-Jacques Akamah
 - US-01 : Recherche d'événement dans l'application.
