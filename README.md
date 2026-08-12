@@ -24,7 +24,6 @@ Le dépôt est organisé de la manière suivante :
 - `user-stories/` : documentation des User Stories, critères d’acceptation, priorités et Story Points.
 - `README.md` : présentation générale du projet et organisation du dépôt.
 
-
 ## Hypthèses clés
 
 Les principales hypothèses retenues pour la conception de TicketPulse sont :

@@ -33,7 +33,7 @@ Must have
 
 - TASK 1.2 - Conception de l'écran de recherche :
     La maquette Figma montre la page avec laquelle le client interagira sur son ordinateur. Cette page de recherche comprend la page « Explorer » et une page pour les événements préférés, « Favoris ». Sur la page principale, on retrouve les événements en vedette, la barre de recherche avec une section pour les filtres et des icônes de catégorie. La bannière de chaque événement montre son titre, le type d'événement, la ville, le stade ou le lieu de déroulement, la date, le prix de base d'un billet, ainsi que les avis des utilisateurs.
-    Lien : `https://www.figma.com/make/Y7OPqnox7n6bIal6D1ur8O/TicketPulse--Community-?fullscreen=1&t=79Qxrs7n4NeDkdFx-1&code-node-id=0-9`
+    Lien : [`https://www.figma.com/make/Y7OPqnox7n6bIal6D1ur8O/TicketPulse--Community-?fullscreen=1&t=79Qxrs7n4NeDkdFx-1&code-node-id=0-9`](https://l1nq.com/figma-projetgen)
     Capture du site est disponible dans : `architecture/TicketPulse-UI.png`
     
 - TASK 1.3 - Estimation de la charge de recherche :

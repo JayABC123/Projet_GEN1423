@@ -1,8 +1,6 @@
 # TicketPulse
-- Lien vers la maquette de la page WEB : `https://www.figma.com/make/Y7OPqnox7n6bIal6D1ur8O/TicketPulse--Community-?t=YUPl8ZdkbXQ7vjgx-1`
+- Lien vers la maquette de la page WEB : [Lien figma][Cliquer ici]
 
+# NB : Le même lien est utilisé pour tous les fichier figma présents dans Architecture via les différent US.
 
-## US-07 — Tableau de bord des ventes administrateur
-
-- Maquette du tableau de bord administrateur :
-  [US-07 — Tableau de bord des ventes](https://www.figma.com/make/Y7OPqnox7n6bIal6D1ur8O/TicketPulse--Community-?t=SoZzffE0W2QupHHp-1)
+[Cliquer ici]: https://l1nq.com/figma-projetgen
