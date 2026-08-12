@@ -47,3 +47,5 @@ Must have
     Le fichier d'analyse de la concurrence est disponible dans : `docs/US_04/US04-Analyse-Concurrence.md`
 
 - TASK 4.5 - Définir les scénarios d'erreur : 
+    Cette tâche consiste à définir les principaux cas d'erreur liés à la réservation, notamment lorsqu'un siège est déjà verrouillé, lorsque le délai expire ou lorsqu'une réservation est annulée.
+    Le fichier contenant les scénarios de test est disponibles dans : `docs/US_04/US04-Scénarios-Test.md`
