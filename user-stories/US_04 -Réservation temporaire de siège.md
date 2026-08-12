@@ -37,11 +37,17 @@ Must have
     Les critères d'acceptation de la réservation sont définis ci-dessus. Cette tâche consiste à les valider et à s'assurer qu'ils couvrent les différents scénarios de verrouillage temporaire, de visibilité pour les autres utilisateurs, d'expiration/annulation et de protection contre la double réservation.
 
 - TASK 4.2 - Conception du diagramme de séquence de réservation :
+    Cette tâche consiste à modéliser les interactions entre le client et les composants du système lors de la réservation temporaire d'un siège, incluant son verrouillage et sa libération.
+    Le diagramme séquence pour la réservation est disponible dans : `architecture/US_04/US04-Diagramme-Réservation.md`
 
 - TASK 4.3 - Analyse du mécanisme de réservation temporaire :
     Cette tâche consiste à définir le mécanisme de verrouillage temporaire permettant de réserver exclusivement un siège pendant 5 minutes. La solution retenue repose sur un verrou distribué avec expiration automatique (TTL) via Redis, afin de gérer efficacement les accès simultanés et d'éviter les doubles réservations lors des périodes de forte charge.
-    Le fichier d'analyse du mécanisme de réservation temporaire est disponible dans : `docs/US_04/US04-Mécanisme-Réservation.md`
+    Le fichier d'analyse du mécanisme de réservation temporaire est disponible dans : `docs/US_04/US04-Mécanisme-Réservation.png`
 
-- TASK 4.4 - Analyser la concurrence et la double réservation
+- TASK 4.4 - Analyser la concurrence et la double réservation : 
+    Cette tâche consiste à analyser les cas de concurrence entre utilisateurs, à définir les règles de priorité et de résolution des conflits, et à vérifier que le système empêche toute double réservation du même siège pendant la période de verrouillage.
+    Le fichier d'analyse de la concurrence est disponible dans : `docs/US_04/US04-Analyse-Concurrence.md`
 
-- TASK 4.5 - Définir 
+- TASK 4.5 - Définir les scénarios d'erreur : 
+    Cette tâche consiste à définir les principaux cas d'erreur liés à la réservation, notamment lorsqu'un siège est déjà verrouillé, lorsque le délai expire ou lorsqu'une réservation est annulée.
+    Le fichier contenant les scénarios de test est disponibles dans : `docs/US_04/US04-Scénarios-Erreur.md`
