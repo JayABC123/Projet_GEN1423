@@ -17,7 +17,7 @@ TicketPulse est une application de billetterie permettant aux utilisateurs de re
 
 Le dépôt est organisé de la manière suivante :
 
-- `Librables/` : document des volet 1,2 et 3 contenant les livrables et le bilan de contribution des membres
+- `Livrables/` : document des volet 1,2 et 3 contenant les livrables et le bilan de contribution des membres
 - `architecture/` : diagrammes et documents liés à l’architecture du système.
 - `docs/` : documentation générale et livrables du projet.
 - `figma/` : liens et références vers les maquettes Figma.

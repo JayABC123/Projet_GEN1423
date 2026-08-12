@@ -4,7 +4,7 @@
 
 | Membre | Tickets Jira assignés | Story Points réalisés | Commits |
 |---|---|---|---|
-| Akamah, Kokou Jean-Jacques | SCRUM-5, SCRUM-10, SCRUM-11, SCRUM-12, SCRUM-39 | 17 | 31 |
+| Akamah, Kokou Jean-Jacques | SCRUM-5, SCRUM-10, SCRUM-11, SCRUM-12, SCRUM-39 | 17 | 32 |
 | Aka, Andjui Melchisedek Ange-E | SCRUM-13, SCRUM-14, SCRUM-16 ||
 | Banaken, Gladys Eméline | SCRUM-15 | 3 |
 ---
