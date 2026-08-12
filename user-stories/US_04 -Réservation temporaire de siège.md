@@ -42,6 +42,8 @@ Must have
     Cette tâche consiste à définir le mécanisme de verrouillage temporaire permettant de réserver exclusivement un siège pendant 5 minutes. La solution retenue repose sur un verrou distribué avec expiration automatique (TTL) via Redis, afin de gérer efficacement les accès simultanés et d'éviter les doubles réservations lors des périodes de forte charge.
     Le fichier d'analyse du mécanisme de réservation temporaire est disponible dans : `docs/US_04/US04-Mécanisme-Réservation.md`
 
-- TASK 4.4 - Analyser la concurrence et la double réservation
+- TASK 4.4 - Analyser la concurrence et la double réservation : 
+    Cette tâche consiste à analyser les cas de concurrence entre utilisateurs, à définir les règles de priorité et de résolution des conflits, et à vérifier que le système empêche toute double réservation du même siège pendant la période de verrouillage.
+    Le fichier d'analyse de la concurrence est disponible dans : `docs/US_04/US04-Analyse-Concurrence.md`
 
-- TASK 4.5 - Définir 
+- TASK 4.5 - Définir les scénarios d'erreur : 
