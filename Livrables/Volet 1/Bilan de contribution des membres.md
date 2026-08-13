@@ -5,25 +5,17 @@
 | Membre | Tickets Jira assignés | Story Points réalisés | Commits |
 |---|---|---|---|
 | Akamah, Kokou Jean-Jacques | SCRUM-5, SCRUM-10, SCRUM-11, SCRUM-12, SCRUM-39 | 17 | 30 |
-| Aka, Andjui Melchisedek Ange-E | SCRUM-13, SCRUM-14, SCRUM-16 | 9 |
+| Aka, Andjui Melchisedek Ange-E | SCRUM-13, SCRUM-14, SCRUM-16 | 9 | 25 |
 | Banaken, Gladys Eméline | SCRUM-15 | 3 |
 ---
 
 ## Détail des contributions par membre
 
 ### Akamah, Kokou Jean-Jacques
-Responsable des User Stories couvrant le cœur du parcours d'achat :
-US-01 (Recherche d'événement dans l'application), US-03 (Paiement
-sécurisé et génération du billet) et US-04 (Réservation temporaire de
-siège). A produit les diagrammes de séquence, les analyses de mécanisme
-de verrouillage et de concurrence, ainsi que les calculs de
-dimensionnement associés à ces fonctionnalités critiques. A également
-participé activement à la planification des deux Sprints (SCRUM-10,
-SCRUM-39) et au suivi général de l'organisation du projet.
+Responsable des User Stories couvrant le cœur du parcours d'achat : US-01 (Recherche d'événement dans l'application), US-03 (Paiementsécurisé et génération du billet) et US-04 (Réservation temporaire de siège). A produit les diagrammes de séquence, les analyses de mécanismede verrouillage et de concurrence, ainsi que les calculs dedimensionnement associés à ces fonctionnalités critiques. A égalementparticipé activement à la planification des deux Sprints (SCRUM-10,SCRUM-39) et au suivi général de l'organisation du projet.
 
 ### Aka, Andjui Melchisedek Ange-E
-Responsable du Volet 3 (Validation de la qualité) ainsi que des User Stories US-02 (Consulter un événement), US-05(Consultation du plan de salle en temps réel) et US-06 (Notification d'expiration de réservation). A rédigé l'ensemble des livrables du Volet 3 : la stratégie de tests, l'analyse des performances et les scénarios de charge, l'analyse de sécurité (menaces et contrôles), la stratégie d'observabilité et le plan de maintenance et d'évolution. A également rédigé les scénarios de test détaillés associés à ses propres User Stories (US-02, US-05, US-06) et contribué à la structuration et au nettoyage du dépôt Git en fin de 
-projet (correction des doublons de User Stories et de diagrammes redondants).
+Responsable du Volet 3 (Validation de la qualité) ainsi que des User Stories US-02 (Consulter un événement), US-05(Consultation du plan de salle en temps réel) et US-06 (Notification d'expiration de réservation). A rédigé l'ensemble des livrables du Volet 3 : la stratégie de tests, l'analyse des performances et les scénarios de charge, l'analyse de sécurité (menaces et contrôles), la stratégie d'observabilité et le plan de maintenance et d'évolution. A également rédigé les scénarios de test détaillés associés à ses propres User Stories (US-02, US-05, US-06) et contribué à la structuration et au nettoyage du dépôt Git en fin de projet (correction des doublons de User Stories et de diagrammes redondants).
 
 
 ## Répartition dans le temps
