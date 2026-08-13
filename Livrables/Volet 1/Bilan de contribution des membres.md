@@ -5,8 +5,8 @@
 | Membre | Tickets Jira assignés | Story Points réalisés | Commits |
 |---|---|---|---|
 | Akamah, Kokou Jean-Jacques | SCRUM-5, SCRUM-10, SCRUM-11, SCRUM-12, SCRUM-39 | 17 | 30 |
-| Aka, Andjui Melchisedek Ange-E | SCRUM-13, SCRUM-14, SCRUM-16 | 9 | 25 |
-| Banaken, Gladys Eméline | SCRUM-15 | 3 |
+| Aka, Andjui Melchisedek Ange-E | SCRUM-13, SCRUM-14, SCRUM-16 | 9 | 27 |
+| Banaken, Gladys Eméline | SCRUM-15 | 3 | 19 |
 ---
 
 ## Détail des contributions par membre
@@ -17,6 +17,10 @@ Responsable des User Stories couvrant le cœur du parcours d'achat : US-01 (Rech
 ### Aka, Andjui Melchisedek Ange-E
 Responsable du Volet 3 (Validation de la qualité) ainsi que des User Stories US-02 (Consulter un événement), US-05(Consultation du plan de salle en temps réel) et US-06 (Notification d'expiration de réservation). A rédigé l'ensemble des livrables du Volet 3 : la stratégie de tests, l'analyse des performances et les scénarios de charge, l'analyse de sécurité (menaces et contrôles), la stratégie d'observabilité et le plan de maintenance et d'évolution. A également rédigé les scénarios de test détaillés associés à ses propres User Stories (US-02, US-05, US-06) et contribué à la structuration et au nettoyage du dépôt Git en fin de projet (correction des doublons de User Stories et de diagrammes redondants).
 
+### Banaken, Gladys Eméline
+Responsable de la User Story US-07 — Tableau de bord des ventes administrateur (SCRUM-15).
+J'ai participé à la définition et à la documentation de cette fonctionnalité permettant à un administrateur de consulter les principales statistiques de vente d'un événement, notamment le nombre de billets vendus, les billets disponibles et les revenus générés.
+J'ai également travaillé sur les différents livrables associés à cette User Story, notamment les critères d'acceptation, les scénarios de test, la maquette Figma du tableau de bord administrateur ainsi que les éléments d'architecture liés à US-07. Ces travaux permettent d'assurer la traçabilité entre Jira, la documentation GitHub, la conception de l'interface et les éléments de validation du projet.
 
 ## Répartition dans le temps
 
@@ -26,3 +30,7 @@ Ma contribution s'est déroulée de façon continue sur l'ensemble des deux Spri
 
 ### Aka, Andjui Melchisedek Ange-E
 Ma contribution s'est étalée sur plusieurs jours consécutifs. Le 9 août,j'ai créé et entamé mes trois billets Jira (SCRUM-13 — US-02, SCRUM-14 — US-06, SCRUM-16 — US-05, totalisant 9 story points), en parallèle de la rédaction du contenu du Volet 3. La première User Story, US-02 (Consulter un événement), a été résolue le 10 août à 00h22. J'ai poursuivi avec US-05 (Consultation du plan de salle en temps réel), résolue le 11 août à 00h53, puis finalisé US-06 (Notification d'expiration de réservation) le 11 août à 13h46, complétant ainsi l'ensemble de mes billets assignés. En parallèle de ce suivi Jira, j'ai rédigé l'ensemble des livrables écrits du Volet 3, et le 12 août, j'ai contribué au nettoyage final du dépôt Git en corrigeant les doublons de User Stories (US-05/US-06) et les diagrammes redondants identifiés en cours de relecture. Cette répartition illustre un travail continu réparti sur l'ensemble du projet plutôt que concentré en fin de parcours.
+
+### Banaken, Gladys Eméline
+Ma contribution s'est principalement concentrée sur le Sprint 2 avec la réalisation de la User Story US-07 — Tableau de bord des ventes administrateur (SCRUM-15). J'ai progressivement complété les différents éléments nécessaires à cette fonctionnalité : définition de la User Story et de ses critères d'acceptation dans Jira, documentation dans le dépôt GitHub, préparation des scénarios de test, ajout des éléments d'architecture et réalisation de la maquette du tableau de bord administrateur dans Figma.
+J'ai également participé à la mise à jour et à l'organisation des livrables du projet afin d'assurer la cohérence entre Jira, GitHub, Figma et les différents volets de la remise. Mon activité GitHub est répartie sur plusieurs commits correspondant aux ajouts et ajustements réalisés au cours du projet.
